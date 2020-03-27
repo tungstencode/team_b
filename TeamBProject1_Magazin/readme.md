@@ -20,7 +20,11 @@ Install requirements
 pip3 install -r requirements.txt
 ```
 
-To deactivate: .\env\Scripts\deactivate
+To deactivate:
+
+```bash
+ .\env\Scripts\deactivate
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
