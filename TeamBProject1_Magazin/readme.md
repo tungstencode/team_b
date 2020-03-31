@@ -5,7 +5,7 @@ Install python3 : https://www.python.org/
 
 # First run:
 
-Install requirements
+Updrade pip and install virtualenv
 
 ```bash
 python3 -m pip install --user --upgrade pip
@@ -51,8 +51,6 @@ To deactivate:
 ```bash
  .\env\Scripts\deactivate.bat
 ```
-
-
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
