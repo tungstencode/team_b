@@ -8,6 +8,13 @@ Install venv
 python3 -m pip install --user --upgrade pip
 py -m pip install --user virtualenv
 ```
+
+Create env
+
+```bash
+py -m venv env
+```
+
 Activate env
 
 ```bash
