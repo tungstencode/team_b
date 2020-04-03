@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+  <ul class="list-group">
+    {% for item in catalog_items %}
+      <li class="list-group-item">{{ item.name }}</li>
+    {% endfor %}
+  </ul>
+  
+{% endblock %}

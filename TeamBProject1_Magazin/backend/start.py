@@ -39,7 +39,13 @@ def update_movie(index):
 def delete_movie(index):
     movies.pop(index)
     return 'None', 200
+
+@app.route('/catalog')
+def catalog():
+    # Sending the json version of our list
+    return jsonify(movies)
+
     
 if __name__ == "__main__":
     # Starting the app at http://localhost:7000
-    app.run(host='localhost' ,port=7000)
+    app.run(host='localhost' ,port=7000, debug=True)
